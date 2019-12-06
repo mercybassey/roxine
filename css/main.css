@@ -1,0 +1,114 @@
+#header{
+    background-image: linear-gradient(90deg,  rgba(7, 7, 7, 0),rgba(7, 7, 7, 0.657)), url("../images/big-11.jpg");
+    height:45rem;
+    background-size: cover;
+    
+    /* background-repeat: no-repeat; */
+}
+
+
+@media screen and (max-width:500px){
+     #header nav{
+         width: 2 3rem;
+     }
+}
+@media screen and (min-width:1000px){
+    #header{
+        color: red;
+    }
+}
+
+
+
+.job-done{
+    font-size:5rem;
+}
+
+a{
+    font-weight: 100px !important;
+    color: white !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 13px !important;
+}
+.header2{
+    background-image:linear-gradient(90deg,  rgba(7, 7, 7, 0),rgba(7, 7, 7, 0.657)), url("../imagess/second\ header\ image.jpg");
+    height:30rem;
+    background-size: cover;
+    /* text-align: right; */
+    color: white;
+    background-attachment: fixed;
+    
+}
+.tan{
+    text-align: right;
+}
+.b2{
+    padding: 7px 40px 7px 40px;
+    border: none;
+}
+.li{
+    
+    font-size: 20px;
+    /* font-weight: bold; */
+    display: inline;
+    padding: 15px;
+    text-align: center;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    border: none !important;
+       
+}
+.lim:hover{
+    background-color:rgb(197, 186, 186) !important;
+    border:none !important;
+}
+
+
+input{
+    padding:10px 90px 10px 20px;
+    background-color: #212121;
+    
+    border:2px solid grey;
+}
+.tag{
+    margin-left: -10px;
+    text-decoration: none !important;
+    outline: none !important;
+    color:#707070 !important;
+    /* font-family:  !important; */
+}
+.tag:hover{
+    color: white !important;
+}
+.ted li{
+    display: inline; 
+    padding:10px !important; 
+    
+    font-size: 25px;
+}
+.facebook:hover{
+    outline: none !important;
+   
+    color:rgb(37, 37, 73) !important;
+}
+.pinterest:hover{
+    color:red !important;
+}
+.twitter:hover{
+    color:rgb(48, 103, 112) !important;
+}
+.google:hover{
+    color:brown !important
+}
+.dribble:hover{
+    color:pink !important;
+}
+.header4{
+    background-color:#212121; 
+    color:#707070; 
+    
+    padding: 100px 0px 16px;
+}
+
